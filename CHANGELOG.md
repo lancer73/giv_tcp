@@ -1,3 +1,11 @@
+# Unreleased
+
+Changes since 3.6.8.
+
+### Fixed
+- **"App GivTCP did not handle SIGTERM and was terminated by the default signal handler (exit code 143)"** in the Supervisor log whenever the app was stopped or restarted. GivTCP now stops the processes it started (read loops, REST API, RQ workers, Redis, nginx and Mosquitto if it runs its own) and exits normally.
+- **"App GivTCP uses deprecated map option 'config'; use 'homeassistant_config' instead"** in the Supervisor log at every start. The app now maps Home Assistant's config folder with `homeassistant_config`, at `/config` as before, so settings, logs and the cache stay where they are.
+
 # GivTCP 3.6.8
 
 Changes since 3.6.7.
