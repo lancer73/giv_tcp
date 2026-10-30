@@ -96,7 +96,7 @@ Timers are in seconds. Results are "before → after", in interruptions per day,
 
 | Inverter (model, DTC) | Inverter firmware | Inverter software | Battery | Stack firmware | PV | Dongle, connection | Cloud | Loop timer | Full timer | Skip Reads Fresher Than | Pause When Not Responding | Wait After Connecting | Lite mode | GivTCP version | Result | Who / issue |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Three-phase hybrid | ZAAA090909 | ZA1.0 | HV, 6 modules | BABA0009 | 2 strings 11kWp & AC-Coupled 1.8kWp | Ethernet | Blocked | 60 | 3600 | 45 | 600 | 10 | On | 3.6.10 | Before: 5-6 interruptions per day that needed restarts, with inverter hard crashes every week. After: 1-2 pauses per day that recover automatically, no restarts | @lancer73 |
+| 3-phase hybrid Gen3 11kW | ZAAA090909 | ZA1.0 | HV, 6 modules | BABA0009 | 2 strings 11kWp & AC-Coupled 1.8kWp | Ethernet | Blocked | 60 | 3600 | 45 | 600 | 10 | On | 3.6.10 | Before: 5-6 interruptions per day that needed restarts, with inverter hard crashes every week. After: 1-2 pauses per day that recover automatically, no restarts | @lancer73 |
 | | | | | | | | | | | | | | | |
 
 ### What the columns mean
